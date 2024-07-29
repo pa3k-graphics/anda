@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: poppinsBlack;
+    src: url(./fonts/Poppins-Black.ttf);
+}
+@font-face {
+    font-family: poppinsRegular;
+    src: url(./fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppinsBold;
+    src: url(./fonts/Poppins-Bold.ttf);
+}
+
+/* ZACIATOK */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.wrapper{
+    max-width: 768px;
+    height: 8000px;
+}
+.tuzite-po{
+    width: 850px;
+    height: 1610px;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+}
+.kapitalky-nazov{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-family: poppinsBlack;
+    font-size: 50px;
+}
+.zoznam ul{
+    width: 600px;
+    color: white;
+    font-family: poppinsRegular;
+    font-size: 62px;
+    list-style-image: url(./img/list-style-img.png);
+    line-height: 80px;
+	margin-left: 150px;
+    margin-top: 10px;
+}
+.zoznam li{
+    margin-bottom: 30px;
+}
+.zoznam span{
+    font-family: poppinsBold;
+}
+.tiri{
+    text-align: center;
+    color: black;
+    font-family: poppinsBold;
+    font-size: 50px;
+    margin-top: 50px;
+    line-height: 65px;
+}
+.tiri span{
+    font-size: 60px;
+}
+#cierna-sekcia img{
+    position: absolute;
+    z-index: -1;
+    margin-top: -192px;
+}
+.ciernota{
+    position: absolute;
+    background-color: black;
+    width: 1000px;
+    height: 2000px;
+    margin-top: 370px;
+}
